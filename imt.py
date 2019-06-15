@@ -28,15 +28,15 @@ def main():
         imts = i.split(' ')[1:]
 
         for imt in imts:
+            # Won't add duplicate modules
             imports.add(imt.rstrip(','))
-            # print(imt.rstrip(','))
 
     # sort according to length of the module name
     modules = [x for x in imports]
     modules.sort(key=len)
 
-    for x in modules:
-        print('import ' + str(x))
+    for module in modules:
+        print('import ' + str(module))
 
 
 if __name__ == '__main__':
