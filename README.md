@@ -5,7 +5,7 @@
 
 ## Usage
 
-For now, it prints to stdout rather than making a change in the source file.
+For now, it prints to `STDOUT` rather than making a change in the source file.
 
 ```shell
 $ imt.py <file>
