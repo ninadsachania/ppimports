@@ -18,7 +18,7 @@ Example:
 
 We have a file called `test.py`:
 
-```
+```python
 import os
 import sys
 import re
